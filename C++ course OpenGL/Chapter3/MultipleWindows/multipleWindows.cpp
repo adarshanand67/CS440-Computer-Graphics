@@ -112,7 +112,7 @@ int main(int argc, char **argv)
 
    // First top-level window specs.
    glutInitWindowSize(250, 500);
-   glutInitWindowPosition(100, 100);
+   glutInitWindowPosition(100, 100);   cp
 
    // Create the first window and return id.
    glutCreateWindow("window 1");

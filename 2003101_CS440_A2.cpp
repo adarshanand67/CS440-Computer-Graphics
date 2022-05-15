@@ -226,7 +226,7 @@ int main(int argc, char **argv)
 	glEnable(GL_DEPTH_TEST);								   // Enable depth testing
 
 	cout << " -> USER INTERACTION\n ";
-	cout << " -> w for zoom in\n-> s for zoom out \n"; 
+	cout << " -> w for zoom in\n-> s for zoom out \n";
 	cout << " -> a for turning camera in anticlockwise direction\n ";
 	cout << " -> d for turning camera in  clockwise direction\n ";
 	cout << " -> left arrow for moving left \n";

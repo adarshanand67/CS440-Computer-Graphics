@@ -37,7 +37,7 @@ void drawScene(void)
 	// End contents of first viewport.
 
 	// Define second viewport.
-	glViewport(width/2.0, 0, width/2.0, height);
+	glViewport(width/2.0, 0, width/2.0, height); // (x,y,width,height)
 
 	// Begin contents of second viewport.
 	// A blue circle.
