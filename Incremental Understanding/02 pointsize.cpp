@@ -23,7 +23,7 @@ void drawScene(void)
     glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
     // Draw a triangle strip.
     glBegin(GL_TRIANGLE_STRIP);
-    glPointSize(5.0); // Set point size.
+    glPointSize(8.0); // Set point size.
     glColor3f(1.0, 0.0, 0.0); // set color
     glVertex3f(10.0, 90.0, 0.0);
     glVertex3f(10.0, 10.0, 0.0);

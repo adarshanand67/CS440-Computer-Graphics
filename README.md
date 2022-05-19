@@ -1,11 +1,8 @@
-# OpenGL 
+# OpenGL
 
-## OpenGL links
-- https://www.geeksforgeeks.org/mid-point-line-generation-algorithm/
-
+All course contents + Assignments + References + Learnings of the course CS440 - Computer Graphics Using OpenGL taken by Prof Venkatesh Kamat at IIT Goa.
 
 ## OpenGL vocabulary
-
 
 Rendering - The process of converting a 3D model into a 2D image.
 
@@ -30,7 +27,6 @@ Shaders - A program that runs on the GPU.
 OpenGL - An API for rendering graphics.
 
 ## Graphics pipeline
-
 
 Graphics pipeline - The sequence of operations that convert a 3D model into a 2D image.
 
@@ -60,14 +56,13 @@ Vertex Buffer Objects (VBO) - VBOs are used to store the geometry data.
 
 Index Buffer Objects - IBOs are used to store the indices of the geometry.
 
-Vertex Array Objects - VAOs are used to store the state of the geometry.
+Vertex Ar linray Objects - VAOs are used to store the state of the geometry.
 
 ## OpenGL Basics
 
-
 GLFW - manage windows and OpenGL contexts, as well as handle joystick, keyboard and mouse input
 
-Context - Think of a context as an object that holds all of OpenGL; when a context is destroyed, OpenGL is destroyed.In order for any 
+Context - Think of a context as an object that holds all of OpenGL; when a context is destroyed, OpenGL is destroyed.In order for any
 OpenGL commands to work, a context must be current; all OpenGL commands affect the state of whichever context is current.
 
 glEnableClientState — enable or disable client-side capability (by default, all capabilities are disabled).

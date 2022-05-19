@@ -7,12 +7,6 @@
 using namespace std;
 #define PI 3.14159265358979324
 
-// Globals.
-// static float R = 40.0; // Radius of circle.
-// static float X = 75; // X-coordinate of center of circle.
-// static float Y = 75; // Y-coordinate of center of circle.
-// static int numVertices = 5; // Number of vertices on circle.
-
 // Drawing routine.
 void drawScene(void)
 {
@@ -23,11 +17,11 @@ void drawScene(void)
         glColor3f(1.0, 0.0, 0.0);
         glVertex2f(0.0, 0.0); // bottom left
         glColor3f(1.0, 1.0, 0.0);
-        glVertex2f(75, 0.0);
+        glVertex2f(75, 0.0);  // bottom right
         glColor3f(1.0, 0.0, 1.0);
-        glVertex2f(75, 75.0);
+        glVertex2f(75, 75.0);   // top right
         glColor3f(1.0, 0.50, 1.0);
-        glVertex2f(0.0, 75);
+        glVertex2f(0.0, 75);    // top left
     glEnd();
     glFlush();
     // coordinates in openGL window start from bottom left corner, but supplied coordinates start from top left corner

@@ -26,7 +26,7 @@ void drawScene(void)
 	// glColor3fv(square_color);
 	// glBegin(GL_POLYGON);
 	// glVertex3f(20.0, 20.0, 0.0);
-	// glVertex3f(80.0, 20.0, 0.0);
+	// glVertexp3f(80.0, 20.0, 0.0);
 	// glVertex3f(80.0, 80.0, 0.0);
 	// glVertex3f(20.0, 80.0, 0.0);
 	// glEnd();

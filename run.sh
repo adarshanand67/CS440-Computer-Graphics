@@ -1,4 +1,4 @@
-
+# Utility to run openGL in VSCODE
 file=$1
 out=$(basename "$file" ".cpp")
 if [ ! -d ".compiled" ] 
