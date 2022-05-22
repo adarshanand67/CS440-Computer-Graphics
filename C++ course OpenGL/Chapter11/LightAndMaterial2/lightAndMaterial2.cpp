@@ -57,32 +57,32 @@ void floatToString(char * destStr, int precision, float val)
 }
 
 // Write data.
-void writeData(void)
-{
-	glDisable(GL_LIGHTING); // Disable lighting.
-	glColor3f(1.0, 1.0, 1.0);
+// void writeData(void)
+// {
+// 	glDisable(GL_LIGHTING); // Disable lighting.
+// 	glColor3f(1.0, 1.0, 1.0);
 
-	floatToString(theStringBuffer, 4, d);
-	glRasterPos3f(-1.0, 1.05, -2.0);
-	writeBitmapString((void*)font, "Diffuse and specular white light intensity: ");
-	writeBitmapString((void*)font, theStringBuffer);
+// 	floatToString(theStringBuffer, 4, d);
+// 	glRasterPos3f(-1.0, 1.05, -2.0);
+// 	writeBitmapString((void*)font, "Diffuse and specular white light intensity: ");
+// 	writeBitmapString((void*)font, theStringBuffer);
 
-	floatToString(theStringBuffer, 4, m);
-	glRasterPos3f(-1.0, 1.0, -2.0);
-	writeBitmapString((void*)font, "Global ambient whitle light intensity: ");
-	writeBitmapString((void*)font, theStringBuffer);
+// 	floatToString(theStringBuffer, 4, m);
+// 	glRasterPos3f(-1.0, 1.0, -2.0);
+// 	writeBitmapString((void*)font, "Global ambient whitle light intensity: ");
+// 	writeBitmapString((void*)font, theStringBuffer);
 
-	floatToString(theStringBuffer, 4, t);
-	glRasterPos3f(-1.0, 0.95, -2.0);
-	writeBitmapString((void*)font, "Quadratic attenuation: ");
-	writeBitmapString((void*)font, theStringBuffer);
+// 	floatToString(theStringBuffer, 4, t);
+// 	glRasterPos3f(-1.0, 0.95, -2.0);
+// 	writeBitmapString((void*)font, "Quadratic attenuation: ");
+// 	writeBitmapString((void*)font, theStringBuffer);
 
-	glRasterPos3f(-1.0, 0.9, -2.0);
-	if (localViewer) writeBitmapString((void*)font, "Local viewpoint.");
-	else writeBitmapString((void*)font, "Infinite viewpoint.");
+// 	glRasterPos3f(-1.0, 0.9, -2.0);
+// 	if (localViewer) writeBitmapString((void*)font, "Local viewpoint.");
+// 	else writeBitmapString((void*)font, "Infinite viewpoint.");
 
-	glEnable(GL_LIGHTING); // Re-enable lighting.
-}
+// 	glEnable(GL_LIGHTING); // Re-enable lighting.
+// }
 
 // Initialization routine.
 void setup(void)
@@ -144,7 +144,7 @@ void drawScene()
 	glLightf(GL_LIGHT0, GL_QUADRATIC_ATTENUATION, t);
 	glLightf(GL_LIGHT1, GL_QUADRATIC_ATTENUATION, t);
 
-	writeData();
+	// writeData();
 
 	gluLookAt(0.0, 3.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 

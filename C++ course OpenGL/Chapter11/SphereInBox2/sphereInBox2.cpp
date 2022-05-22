@@ -131,8 +131,8 @@ void drawScene()
 	// Write message.
 	glDisable(GL_LIGHTING);
 	glRasterPos3f(-1.0, 1.0, -2.0);
-	if (averagedNormals) writeBitmapString((void*)font, "Averaged normals!");
-	else writeBitmapString((void*)font, "Unaveraged normals!");
+	// if (averagedNormals) writeBitmapString((void*)font, "Averaged normals!");
+	// else writeBitmapString((void*)font, "Unaveraged normals!");
 	glEnable(GL_LIGHTING);
 
 	// Position the box for viewing.
